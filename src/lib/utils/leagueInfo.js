@@ -1,28 +1,14 @@
 /*   STEP 1   */
-export const leagueID = "917902443235823616"; // your league ID
-export const leagueName = "You Kick'em We Pick'em"; // your league name
-export const dues = 100; // (optional) used in template constitution page
+export const leagueID = "91683839878356736"; // your league ID
+export const leagueName = "Dynasty Dads 4"; // your league name
+export const dues = 25; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>League Payouts: </p>
-  <p>League Winner - $175</p>
-  <p>Runner-up - $100</p>
-  <p>3rd Place - $25 </p>
-  <p>Best Record in Regular Season - $25</p>
-  <p>Most Points during Regular Season - $25</p>
-  <p></p>
-  <p></p>
-  <p>Playoff Seeding: Seeds 1-5 determined by regular season record. 6th seed will be given to team with most points scored who did not finish in top 5.</p>
-  <p></p>
-  <p></p>
-  <p>Winner of consolation bracket will be awared a comp pick at end of 2nd round.</p>
-  <p></p>
-  <p></p>
-  <p>Future rookie draft rankings will be based off final ranking after the playoffs and consolation bracket. The winner of the 13/14 game will be awarded the 1.01 </p>
-`;
+  <p>Checkout the Dynasty Dads Podcast here: https://open.spotify.com/show/3g67KnEr2JaIzbjuhuIJMn?si=dce6a8049ca34093</p>
+ `;
 
 /*   STEP 3   */
 /*
