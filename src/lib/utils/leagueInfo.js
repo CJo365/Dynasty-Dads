@@ -6,18 +6,9 @@ export const dynasty = true; // true for dynasty leagues, false for redraft and 
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
-
-const url = "https://open.spotify.com/show/3g67KnEr2JaIzbjuhuIJMn?si=dce6a8049ca34093";
-
-const link = document.createElement("a");
-link.href = url;
-link.innerText = "Click here to visit the podcast";
-
-// Append the hyperlink to a container element
-export const homepageText = 
-  document.getElementById("container");
-container.appendChild(link);
-
+export const homepageText = `
+  <p></p>
+`;
 /*   STEP 3   */
 /*
 3 managers as an example. Uncomment (remove the //) before each line to make it live code
